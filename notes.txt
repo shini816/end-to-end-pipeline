@@ -1,0 +1,13 @@
+1.data ingestion karke run karne me do folder banta h 1. data usske ander raw hota h jisme train aur test.csv hota h project ka 
+    2. logs hota h jisme log ke details rehte h
+2.pre processing karke phirse do folders banenge jaha se ek 
+        1. data ke andar interim folder banega with preprocessed train and test csv data
+        2. aur dusra preprocessing log ban jayega log folder me
+3.feature engineering karkek phirse do folders-
+        1. data ke andar processed folder jisme test_tfidf.csv and train_tfidf.csv 
+        2. aur feature enginerring log ban jayega log folder me
+4. model training - isske execution ke baad ek model file ban jata h 
+5.model evaluation - ek naya folder banaega report ke naam se jismen metricds.json file hoga jisme accuracy precesion recall auc result deta h
+
+7. add data,models,reports to .gitignore in order to ignore the files as they 
+can be very large for git.
