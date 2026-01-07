@@ -11,3 +11,6 @@
 
 7. add data,models,reports to .gitignore in order to ignore the files as they 
 can be very large for git.
+
+
+8. 
